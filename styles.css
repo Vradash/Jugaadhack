@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #000000; /* Black background */
+    color: #FFFFFF; /* White text */
+}
+
+header {
+    background-color: #FF0000; /* Red */
+    color: #FFFFFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header #logo {
+    width: 50px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline;
+    margin-left: 10px;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+#search {
+    margin-bottom: 20px;
+}
+
+#search input {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border: 1px solid #FFFF00; /* Yellow */
+    border-radius: 4px;
+    background-color: #1C1C1C; /* Dark background for inputs */
+    color: #FFFFFF; 
+}
